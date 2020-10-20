@@ -10,8 +10,10 @@ class App extends Component {
 
     this.state = {
       employees: [],
-      searchField: "",
+      searchField: ""
+
     };
+    
   }
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
